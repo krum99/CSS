@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>	
+
+	<head>
+		<title> exercise player </title>
+		
+		<style>
+		.big_div
+		{
+		border:double grey 5px;
+		border-radius:5px;
+		height:530px;
+		}
+		.heading
+		{
+		height:80px;
+		}
+		.heading span
+		{
+		font-size:35px;
+		position:absolute;
+		margin-top:30px;
+		margin-left:15px;
+		}
+		.player
+		{
+		background-color:#4F98E2;
+		width:90%;
+		height:430px;
+		border-radius:5px;
+		margin-left:15px;
+		}
+		.img
+		{
+		background-image:url('player.jpg');
+		width:800px;
+		height:300px;
+		position:absolute;
+		margin-top:15px;
+		margin-left:15px;
+		}
+		.scroll
+		{
+		position:absolute;
+		width:200px;
+		height:200px;
+		margin-left:900px;
+		margin-top:100px;
+		overflow:auto;
+		}
+		.volume
+		{
+		position:absolute;
+		margin-top:380px;
+		margin-left:840px;
+		}
+		.menu
+		{
+		position:absolute;
+		margin-top:360px;	
+		margin-left:200px;
+		}
+		.menu ul
+		{
+		list-style-type:none;
+		}
+		.menu ul li
+		{
+		display:inline;
+		border:solid black 1px;
+		margin-left:30px;
+		padding:2px 5px;
+		background-color:#E0E3EA;
+		cursor:pointer
+		}
+		</style>
+	</head>
+	
+	<body>
+	
+		<div class="big_div">
+			<div class="heading">
+				<span>Web Design Video Player</span>
+			</div>
+			<div class="player">
+				<div class="img"></div>
+				<div class="scroll"> some text some text some text some text some text some text some text 
+				some text some text some text some text some text some text some text 
+				some text some text some text some text some text some text some text some text 
+				some text some text some text some text some text some text some text some text some text 
+				some text some text some text some text some text some text some text some text some text 
+				</div>
+				<div class="menu">
+					<ul>
+						<li>
+							Start
+						</li>		
+						<li>
+							Pause
+						</li>
+						<li>
+							Next
+						</li>
+						<li>
+							Previos
+						</li>	
+                    </ul>
+				</div>
+				<div class="volume">
+					Volume
+				  <input type="range" min="1" max="100" value="50">
+				</div>
+			
+			</div>
+		
+		</div>
+	
+	</body>
+	
+</html>

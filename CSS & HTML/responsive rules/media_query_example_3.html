@@ -1,0 +1,43 @@
+<DOCTYPE! html>
+
+<html>
+	<head>
+		<title>media query </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			.example
+			{
+			margin:50px;
+			padding:50px;
+			background-color:blue;
+			font-size:32px;
+			}
+			.example2
+			{
+			margin:50px;
+			padding:50px;
+			background-color:red;
+			font-size:32px;
+			display:none;
+			}
+			@media only screen and (max-width: 600px)
+			{
+			.example{display:none;}
+			.example2{display:block;}
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="example">
+			<p> this is media query example. resize the width of screen below 600px 
+			and this div will disapear and another is going to show up </p>
+		</div>
+		
+		<div class="example2">
+			<p> HELLO WORLD !!! <p>
+		</div>
+			
+	</body>
+</html>
+	

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title> display examples </title>
+		
+		<style>
+		.border
+		{
+		border:solid black 2px;
+		}
+		.inline
+		{
+		display:inline;
+		}
+		.block
+		{
+		display:block;
+		}
+		.inline-block
+		{
+		display:inline-block;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<span> the divs display property is inline. NOTICE:height and width have no effects </span>
+		<br>
+		<br>
+		<div class="inline border"> just div</div>
+		<div class="inline border"> just div</div>
+		<div class="inline border"> just div</div>
+		<br>
+		<span>One more example: <br> some content some content some content some content<div class="inline border"> just div</div>some content
+		some content <div class="inline border"> just div</div> some content some content </span>
+		<br>
+		<br>
+		<span> the divs display property is block. NOTICE: It start on new line and take all the width </span>
+		<br>
+		<div class="block border" style="margin:2px auto;"> just div </div>
+		<div class="block border" style="margin:2px auto;"> just div </div>
+		<div class="block border" style="margin:2px auto;"> just div </div>
+		<br><br>
+		<span> the third property used over the next divs is inline-block. NOTICE: It is like inline property but height and width HAVE effects </span>
+		<br>
+		<div class="inline-block border"> just div </div>
+		<div class="inline-block border"> just div </div>
+		<div class="inline-block border"> just div </div>
+		<br>
+		<br>
+		<span> one more example with inline-block property with divs with diferent height and width </span>
+		<br>
+		<div class="inline-block border" style="width:180px;height:140px;"> just div </div>
+	    <div class="inline-block border" style="width:320px;height:80px;"> just div </div>
+	    <div class="inline-block border" style="width:230px;height:250px;"> just div </div>
+	</body>
+	
+</html>
